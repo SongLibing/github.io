@@ -1,3 +1,4 @@
+# MySQL内存问题分析利器Jemalloc
 内存泄漏、内存占用高是MySQL中较常见的问题，这些问题的排查非常依赖完善的内存监控信息。MySQL的Performance Schema中提供了内存的监控信息，PFS的内存统计信息粒度比较粗，很难精准的定位到问题代码。
 
 ![](http://mmbiz.qpic.cn/sz_mmbiz_png/ibf4J5w9SFz4qibCyCxtwSASicXk2rlzpar3tmHauB4moaicvcSw0DuonIgtfPWXqStITXNcBVfw9fPefnPVkRBarg/640?wx_fmt=png&from=appmsg)
